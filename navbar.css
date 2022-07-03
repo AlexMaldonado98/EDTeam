@@ -1,0 +1,41 @@
+.main-navbar {
+    background-color: rgb(138, 58, 58);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 20px;
+    left: 30px;
+    padding: 5px;
+}
+.list {
+    color: white;
+}
+
+.container{ 
+    max-width: 1200px;
+    margin-left: 30px; width: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.d-none{
+    display: none;
+}
+
+@media (max-width:376px){
+    
+}
+
+
+.container p {
+    margin: 0;
+}
+
+.container a {
+    text-decoration: none;
+    color: blueviolet;
+}

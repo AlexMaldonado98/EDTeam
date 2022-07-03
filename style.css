@@ -5,7 +5,7 @@ html, body {
     width: 100%;
     margin: 0;
     display: flex;
-    align-items: center;
+    
 }
 
 body{
@@ -30,3 +30,4 @@ body{
 .absolute{
     position: absolute;
 }
+
