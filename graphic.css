@@ -1,0 +1,62 @@
+.graphic{
+    position: relative;
+    display: grid;
+    padding-top: 3rem ;
+    grid-template-columns: 1fr 75%; 
+    user-select: none;
+    overflow: hidden;
+}
+
+.graphic-man{
+    width: 100%;
+    grid-column-start: 2 ;
+}
+
+.graphic-go{
+    width: 25%;
+    mix-blend-mode: screen;
+    top: 9%;
+    left: 77%;
+    transform: rotate(3deg);
+}
+
+.graphic-circles{
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    left: 15%;
+}
+
+.graphic-circles img{
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: screen;
+}
+
+.graphic-energy{
+    animation: girarAnimation 10s linear infinite;
+}
+
+.graphic-circle-1{
+    animation: girarAnimation2 16s linear infinite
+}
+
+.graphic-circle-2{
+    animation: girarAnimation 20s linear infinite
+}
+
+@keyframes girarAnimation{
+    to{
+        transform: rotate(1turn);
+    }
+}
+@keyframes girarAnimation2{
+    to{
+        transform: rotate(-1turn);
+    }
+}
+
+@media (min-width:1024px){
+    .graphic-go{
+        top: 0;
+    }
+}
