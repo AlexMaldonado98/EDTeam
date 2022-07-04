@@ -1,7 +1,7 @@
 .graphic{
     position: relative;
     display: grid;
-    padding-top: 3rem ;
+    padding-top: 4rem ;
     grid-template-columns: 1fr 75%; 
     user-select: none;
     overflow: hidden;
